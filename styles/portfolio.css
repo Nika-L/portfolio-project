@@ -36,6 +36,40 @@ p {
   line-height: 30px;
 }
 
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 38px;
+  font-size: 16px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+  transition: all 150ms ease-in-out;
+}
+
+.nav-name {
+  font-size: 22px;
+  font-weight: 500;
+  font-family: var(--default-font-family);
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -109,6 +143,17 @@ p {
   .content {
     text-align: center;
     padding: 0;
+  }
+  .nav-name {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+  }
+
+  nav li {
+    line-height: 18px;
+    font-size: 14px;
+    margin-left: 10px;
   }
 }
 
