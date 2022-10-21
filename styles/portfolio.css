@@ -2,8 +2,8 @@
 font-family: 'Poppins', sans-serif; */
 
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
+  --branding-color: #d3a565;
+  --secondary-color: #f1f0ec;
   --heading-font-family: "Playfair Display SC", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -252,4 +252,12 @@ footer .email-link:hover {
 
 .social-links {
   padding: 50px;
+}
+
+.content-links a {
+  color: var(--branding-color);
+}
+
+.content-links a:hover {
+  color: var(--secondary-color);
 }
